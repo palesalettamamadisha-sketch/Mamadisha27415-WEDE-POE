@@ -1,2 +1,15 @@
-# Mamadisha27415-WEDE-POE
- Aperture Lens Photography is a professional single page portfolio and booking website designed for a boutique south African photography studio . The site serves as a central digital hub to replace the business's previous reliance on social media DMs and word of mouth , offering a seamless experience for both individual and commercial clientso
+# Project Title
+Aperture Lens Photography Website
+
+## Project Overview
+A responsive multi-page website developed for Aperture Lens Photography to transition from manual social media bookings to an automated, structured online platform.
+
+## Website Goals and Objectives
+* Provide clear visibility of photography packages and pricing.
+* Automate customer session enquiries and reduce response times.
+* Establish a professional web footprint in South Africa.
+
+## Key Features and Functionality
+* 5 complete, cross-linked HTML pages (`index`, `about`, `services`, `enquiry`, `contact`).
+* Structured semantic layout using HTML5 tags (`header`, `nav`, `main`, `footer`).
+* Clean internal CSS formatting and accessible form controls.
