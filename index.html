@@ -4,7 +4,7 @@
     <!-- 
       Document Name: index.html
       Target Business: Aperture Lens Photography
-      Description: Home page featuring brand overview, immersive hero section, live photography gallery grid, and cinematic footer.
+      Description: Immersive landing page featuring hero showcase, rotating photography marquee, and brand highlights.
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- Header Navigation Bar -->
     <header>
         <div class="logo">Aperture Lens Photography</div>
         <nav>
@@ -25,53 +26,98 @@
         </nav>
     </header>
 
+    <!-- Main Content Section -->
     <main>
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="hero-badge"> Professional Visual Storytelling</div>
-            <h1>Capturing Moments. Telling Stories.</h1>
-            <p>To deliver creative, high-grade visual stories for individuals and local businesses while keeping client interactions simple, fast, and stress-free.</p>
+            <div class="hero-badge">Visual Legacies Crafted in High Definition</div>
+            <h1>Capturing Moments, Defining Eternity</h1>
+            <p>Welcome to Aperture Lens Photography. Operating from Midrand and Johannesburg, we specialize in high-end commercial, portrait, and cinematic studio visual storytelling.</p>
             <div class="hero-actions">
                 <a href="enquiry.html" class="btn">Book a Session</a>
-                <a href="services.html" class="btn-outline">Explore Portfolios</a>
+                <a href="services.html" class="btn-outline">Explore Packages</a>
             </div>
         </section>
 
-        <section class="about-snippet">
+        <!-- Rotating Image Showcases / Marquee -->
+        <section class="content-section" style="padding-top: 50px; padding-bottom: 50px;">
             <div class="snippet-header">
-                <h2>Welcome to Aperture Lens Photography</h2>
-                <p>Founded in 2021 in South Africa, we specialize in high-quality portrait sessions, corporate headshots, graduation photo shoots, and local event coverage.</p>
+                <h2>Featured Visuals</h2>
+                <p>A glimpse into our premier portraiture and commercial galleries.</p>
             </div>
             
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=80" alt="Portrait Photography">
-                    <div class="gallery-overlay">
-                        <span>Portrait Sessions</span>
+            <div class="rotating-showcase-container">
+                <div class="marquee-wrapper">
+                    <div class="marquee-track">
+                        <!-- Item 1 -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop" alt="Wedding Portrait">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=600&auto=format&fit=crop" alt="Studio Portrait">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop" alt="Event Photography">
+                        </div>
+                        <!-- Item 4 -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop" alt="Fashion Editorial">
+                        </div>
+                        <!-- Item 5 -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600&auto=format&fit=crop" alt="Commercial Shoot">
+                        </div>
+                        <!-- Duplicate Track for Seamless Marquee Loop -->
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600&auto=format&fit=crop" alt="Wedding Portrait">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=600&auto=format&fit=crop" alt="Studio Portrait">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=600&auto=format&fit=crop" alt="Event Photography">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=600&auto=format&fit=crop" alt="Fashion Editorial">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=600&auto=format&fit=crop" alt="Commercial Shoot">
+                        </div>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="Corporate Headshots">
-                    <div class="gallery-overlay">
-                        <span>Corporate Headshots</span>
-                    </div>
+            </div>
+        </section>
+
+        <!-- Core Pillars Section -->
+        <section class="content-section">
+            <div class="about-hero-header">
+                <h2>Why Choose Aperture Lens</h2>
+                <p>We combine cutting-edge optical gear with refined artistic vision to produce striking imagery.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-number">01</div>
+                    <h2>Master Optics</h2>
+                    <p>Utilizing high-end mirrorless camera systems and prime glass to deliver unmatched visual clarity and depth.</p>
                 </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80" alt="Graduation Shoots">
-                    <div class="gallery-overlay">
-                        <span>Graduation Shoots</span>
-                    </div>
+                <div class="about-card">
+                    <div class="card-number">02</div>
+                    <h2>Tailored Direction</h2>
+                    <p>Every session is customized to match your individual or corporate branding goals, ensuring authentic expression.</p>
                 </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Event Coverage">
-                    <div class="gallery-overlay">
-                        <span>Event Coverage</span>
-                    </div>
+                <div class="about-card">
+                    <div class="card-number">03</div>
+                    <h2>Rapid Delivery</h2>
+                    <p>Advanced digital post-processing workflows guarantee high-resolution professional galleries delivered on schedule.</p>
                 </div>
             </div>
         </section>
     </main>
 
-   <footer class="footer-cinematic">
+    <!-- Cinematic Footer -->
+    <footer class="footer-cinematic">
         <div class="footer-content">
             <div class="footer-brand">
                 <h3>Aperture Lens Photography</h3>

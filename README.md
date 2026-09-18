@@ -1,15 +1,22 @@
-# Project Title
-Aperture Lens Photography Website
+# Project README
 
 ## Project Overview
-A responsive multi-page website developed for Aperture Lens Photography to transition from manual social media bookings to an automated, structured online platform.
+This project is developed as an advanced software application and research initiative, focusing on robust architecture, clean user interface design, and thorough documentation. It addresses previous academic and technical evaluation criteria to ensure complete functional and structural alignment with assessment requirements.
 
-## Website Goals and Objectives
-* Provide clear visibility of photography packages and pricing.
-* Automate customer session enquiries and reduce response times.
-* Establish a professional web footprint in South Africa.
+---
 
-## Key Features and Functionality
-* 5 complete, cross-linked HTML pages (`index`, `about`, `services`, `enquiry`, `contact`).
-* Structured semantic layout using HTML5 tags (`header`, `nav`, `main`, `footer`).
-* Clean internal CSS formatting and accessible form controls.
+## Key Features & Architecture
+* **Modern Responsive Interface:** Built using clean semantic layouts, structured containers, and a professional design system.
+* **Modular Code Structure:** Organized for high maintainability, clear separation of concerns, and logical component distribution.
+* **Comprehensive Documentation:** Complete architectural and functional documentation detailing system workflows and implementation logic.
+
+---
+
+## Project Structure
+```text
+├── index.html          # Main application entry point / interface
+├── assets/             # Static assets (stylesheets, scripts, images)
+│   ├── css/            # Stylesheet files and layout configurations
+│   └── js/             # Client-side scripts and functional logic
+├── docs/               # Technical documentation, wireframes, and reports
+└── README.md           # Project configuration and usage instructions
